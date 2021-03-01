@@ -1,0 +1,89 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+section {
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    margin: 0;
+    /* padding: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color: red;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: 2em;
+}
+#card {
+    width: 50rem;
+    height: 20rem;
+    background-color: white;
+    padding: 20px 30px 20px 8rem;
+    box-shadow: 0 8px 6px -6px rgba(0, 0, 0, 0.719);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+#price {
+    width: 60%;
+    height: 50px;
+    margin-right: 15px;
+    padding: 5px 15px;
+    font-size: 1.2em;
+    border-radius: 6px;
+}
+#btn {
+    height: 50px;
+    padding: 0 15px;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #20b684;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+}
+#result-text {
+    width: 100%;
+    /* background-color: green; */
+}
+p {
+    color: #cd415c;
+}
+/* CE SONT LES CLASSES QUI SERVIRONT À AFFICHER LE RESULTAT */
+/* EN FONCTION DU RÉSULTAT ON FERA EN SORTE D'ACTIVER */
+/* instruction more / instructoin et less / instruction et winner */
+.instruction {
+    padding: 15px;
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+}
+.more {
+background-color: #f67280;
+}
+.less {
+background-color: #ffa372;
+}
+.winner {
+background-color : #0c9463;
+}
